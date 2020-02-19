@@ -20,6 +20,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-https://medium.com/parenting-tw/qrcode-scanner-with-vuejs-a69335cf9197
