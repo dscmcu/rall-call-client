@@ -21,18 +21,21 @@
         </el-radio-group>
       </el-form-item>
 
-      <!--
+      
       <el-form-item label prop="privacy">
         <el-checkbox v-model="ruleForm.privacy">
-          我同意
+          我同意，包含今天在內往前的14天未出過國、<br>
+          未違反政府檢疫及隔離規定，且今日量測體溫未超過37.5度。
+          <!--
           <a href="#">隱私權條款</a>
+          -->
         </el-checkbox>
       </el-form-item>
       <el-form-item>
         <el-button type="primary" icon="el-icon-check" @click="submitForm('ruleForm',ruleForm)">送出</el-button>
       </el-form-item>
       
-      -->
+      
     </el-form>
 
     <qr-code :text="JSON.stringify(ruleForm)" style="align-content: center;"></qr-code>
@@ -53,8 +56,8 @@ export default {
       ruleForm: {
         name: "",
         gender: "",
-        grade: ""
-        //privacy: false
+        grade: "",
+        privacy: false
       },
       rules: {
         name: [{ required: true, message: "請輸入姓名", trigger: "blur" }],
