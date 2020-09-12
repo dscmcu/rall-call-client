@@ -6,8 +6,8 @@ Project setup
 [client]:https://github.com/dscmcu/rall-call-client
 [scanner]:https://github.com/dscmcu/rall-call-scanner
 
-![](https://github.com/dscmcu/rall-call-client/blob/master/img/1.jpg)
 ![](https://github.com/dscmcu/rall-call-client/blob/master/img/2.jpg)
+![](https://github.com/dscmcu/rall-call-client/blob/master/img/1.jpg)
 
 
 ```
